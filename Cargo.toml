@@ -1,5 +1,5 @@
 [package]
-name = "barcode_sound"
+name = "wavcode"
 version = "0.1.0"
 authors = ["sbock <sebastian.bockholt@rwth-aachen.de>"]
 edition = "2018"
