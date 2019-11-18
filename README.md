@@ -1,6 +1,9 @@
 # wavcode - Create encode a message in a barcode  as a waveform
 
-To encode the word Wikipedia, just execute the binary `wavecode -t "*Wikipedia*"` or `cargo run -- -t "*Your text here*"` if you are building from source.
+To encode the word Wikipedia, just execute the binary `wavecode -t "*Wikipedia*"`  
+or `cargo run -- -t "*Your text here*"` if you are building from source.
+
+
 The output is stored in `out.wav`by default and can be changed with the flag `-o`.
 For help, just call `--help`.
 
