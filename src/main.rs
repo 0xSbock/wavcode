@@ -42,10 +42,8 @@ fn main() {
         // encode each character into the code_39 representation
         .map(|x| encode(x))
         .flatten()
-        .collect::<Vec<Bar>>()
-        .iter()
         // generate the sound samples
-        .map(|x| generate_samples(x, spec.sample_rate as usize))
+        .map(|x| generate_samples(&x, spec.sample_rate as usize))
         .flatten()
         .collect::<Vec<i16>>()
     {
